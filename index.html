@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="/assets/index-zf2kab38.js"></script>
+    <script type="module" crossorigin src="/assets/index-neJdNXYS.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-43w6Gb0l.css">
   </head>
   <body class="page">
@@ -68,8 +68,8 @@
                 pattern="^[а-яА-Яa-zA-Z\s\-]+$"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
+              <span class="popup__error" id="user-name-error"></span>
             </label>
-            <span class="popup__error" id="user-name-error"></span>
 
             <label class="popup__label">
               <input
@@ -82,8 +82,8 @@
                 minlength="2"
                 maxlength="200"
               />
+              <span class="popup__error" id="user-description-error"></span>
             </label>
-            <span class="popup__error" id="user-description-error"></span>
 
             <button
               type="submit"
@@ -115,8 +115,8 @@
                 pattern="^[а-яА-Яa-zA-Z\s\-]+$"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
+              <span class="popup__error" id="place-name-error"></span>
             </label>
-            <span class="popup__error" id="place-name-error"></span>
 
             <label class="popup__label">
               <input
@@ -127,8 +127,8 @@
                 placeholder="Ссылка на картинку"
                 required
               />
+              <span class="popup__error" id="place-link-error"></span>
             </label>
-            <span class="popup__error" id="place-link-error"></span>
 
             <button
               type="submit"
@@ -182,8 +182,9 @@
                 placeholder="Ссылка на изображение"
                 required
               />
+              <span class="popup__error" id="user-avatar-error"></span>
             </label>
-            <span class="popup__error" id="user-avatar-error"></span>
+
             <button
               type="submit"
               class="button popup__button popup__button_disabled"
